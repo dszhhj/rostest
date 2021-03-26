@@ -1,0 +1,8 @@
+prefix=/home/hhj/catkin_ws/install
+
+Name: interactive_marker_tutorials
+Description: Description of interactive_marker_tutorials
+Version: 0.11.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: markers roscpp visualization_msgs tf

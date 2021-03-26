@@ -1,0 +1,7 @@
+<launch>
+    <node name="basic_controls" pkg = "interactive_marker_tutorials" type = "basic_controls"></node>
+    <node name="sun" pkg = "interactive_marker_tutorials" type = "sun"></node>
+    <node name="earth" pkg = "interactive_marker_tutorials" type = "earth"></node>
+    <node name="moon" pkg = "interactive_marker_tutorials" type = "moon"></node>
+    <node name="showpath" pkg = "interactive_marker_tutorials" type = "showpath"></node>
+</launch>

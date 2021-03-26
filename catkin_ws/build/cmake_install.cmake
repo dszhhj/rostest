@@ -131,7 +131,13 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/hhj/catkin_ws/build/gtest/cmake_install.cmake")
+  include("/home/hhj/catkin_ws/build/learning_launch/cmake_install.cmake")
   include("/home/hhj/catkin_ws/build/beginner_tutorials/cmake_install.cmake")
+  include("/home/hhj/catkin_ws/build/interactive_marker_tutorials/cmake_install.cmake")
+  include("/home/hhj/catkin_ws/build/tf_demo/cmake_install.cmake")
+  include("/home/hhj/catkin_ws/build/tf_follower/cmake_install.cmake")
+  include("/home/hhj/catkin_ws/build/learning_tf/cmake_install.cmake")
+  include("/home/hhj/catkin_ws/build/using_markers/cmake_install.cmake")
 
 endif()
 

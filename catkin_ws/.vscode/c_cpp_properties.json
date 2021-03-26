@@ -1,0 +1,20 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/hhj/catkin_ws/devel/include/**",
+        "/opt/ros/melodic/include/**",
+        "/home/hhj/catkin_ws/src/beginner_tutorials/include/**",
+        "/home/hhj/catkin_ws/src/learning_tf/include/**",
+        "/home/hhj/catkin_ws/src/using_markers/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ],
+  "version": 4
+}

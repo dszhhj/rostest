@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="learning_tf" type="earth_broadcaster" args="/earth" name="earth_broadcaster" />
+    <node pkg="learning_tf" type="earth_broadcaster" args="/moon" name="moon_broadcaster" />
+
+    <node pkg="learning_tf" type="earth_listener" name="listener" />
+
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find learning_tf)/config/visualization.rviz" required="true" />
+</launch>
